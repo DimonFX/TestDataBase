@@ -5,7 +5,7 @@
     [Name] NVARCHAR(50) NOT NULL, 
     [Patronumic] NVARCHAR(50) NULL, 
     [DateOfBirth] DATE NULL, 
-    [DateInput] DATE NULL
+    [DateInput] DATE NULL DEFAULT getdate()
 )
 
 GO
